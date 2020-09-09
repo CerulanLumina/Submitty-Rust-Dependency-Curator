@@ -23,3 +23,8 @@ structopt = "0.3.17" # Parses arguments into a struct
 clap = "2.33.3" # Verbose and explicit argument parser for when structopt fails
 bitflags = "1.2.1" # Allows creating bitflag types
 regex = "1.3.9" # Regular expression implementation
+
+[dependencies.serde]
+version = "1.0.115"
+features = ["derive"]
+
